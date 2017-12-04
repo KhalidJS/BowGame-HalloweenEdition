@@ -1,0 +1,28 @@
+﻿Build started 30-10-2017 23:11:36.
+     1>Project "C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\BowGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bow.cpp Game.cpp GameObject.cpp HealthBar.cpp ResourceManager.cpp
+         Game.cpp
+     1>c:\users\khalid\source\workspaces\pinkyunicornproject\bowgame\game.cpp(104): warning C4553: '==' : operator has no effect; did you intend '='?
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         ResourceManager.cpp
+         HealthBar.cpp
+         GameObject.cpp
+         Bow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\SFML-2.4.2\lib" "sfml-main.lib" "sfml-graphics.lib" "sfml-system.lib" "sfml-window.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.lib" /MACHINE:X86 Debug\Arrow.obj
+         Debug\Bow.obj
+         Debug\Character.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\HealthBar.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\ResourceManager.obj
+         BowGame.vcxproj -> C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.exe
+     1>Done Building Project "C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\BowGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82
