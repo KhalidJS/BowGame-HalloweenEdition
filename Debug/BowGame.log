@@ -1,28 +1,15 @@
-﻿Build started 30-10-2017 23:11:36.
-     1>Project "C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\BowGame.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bow.cpp Game.cpp GameObject.cpp HealthBar.cpp ResourceManager.cpp
-         Game.cpp
-     1>c:\users\khalid\source\workspaces\pinkyunicornproject\bowgame\game.cpp(104): warning C4553: '==' : operator has no effect; did you intend '='?
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         ResourceManager.cpp
-         HealthBar.cpp
-         GameObject.cpp
-         Bow.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\SFML-2.4.2\lib" "sfml-main.lib" "sfml-graphics.lib" "sfml-system.lib" "sfml-window.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.lib" /MACHINE:X86 Debug\Arrow.obj
-         Debug\Bow.obj
-         Debug\Character.obj
-         Debug\Game.obj
-         Debug\GameObject.obj
-         Debug\HealthBar.obj
-         Debug\main.obj
-         Debug\Map.obj
-         Debug\ResourceManager.obj
-         BowGame.vcxproj -> C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\Debug\BowGame.exe
-     1>Done Building Project "C:\Users\Khalid\source\Workspaces\PinkyUnicornProject\BowGame\BowGame.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:04.82
+﻿  ResourceManager.cpp
+  Map.cpp
+  main.cpp
+  HealthBar.cpp
+  GameObject.cpp
+  Game.cpp
+c:\users\khalid\documents\visual studio 2017\projects\github\bowgame-halloweenedition\game.cpp(104): warning C4553: '==': operator has no effect; did you intend '='?
+  Character.cpp
+  Bow.cpp
+  Arrow.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::RectangleShape & __thiscall sf::RectangleShape::operator=(class sf::RectangleShape &&)" (__imp_??4RectangleShape@sf@@QAEAAV01@$$QAV01@@Z) referenced in function "public: class Character & __thiscall Character::operator=(class Character &&)" (??4Character@@QAEAAV0@$$QAV0@@Z)
+Game.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Sprite & __thiscall sf::Sprite::operator=(class sf::Sprite &&)" (__imp_??4Sprite@sf@@QAEAAV01@$$QAV01@@Z) referenced in function "public: class GameObject & __thiscall GameObject::operator=(class GameObject &&)" (??4GameObject@@QAEAAV0@$$QAV0@@Z)
+Map.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Sprite::Sprite(class sf::Sprite &&)" (__imp_??0Sprite@sf@@QAE@$$QAV01@@Z) referenced in function "public: static void __cdecl std::_Default_allocator_traits<class std::allocator<class sf::Sprite> >::construct<class sf::Sprite,class sf::Sprite>(class std::allocator<class sf::Sprite> &,class sf::Sprite * const,class sf::Sprite &&)" (??$construct@VSprite@sf@@V12@@?$_Default_allocator_traits@V?$allocator@VSprite@sf@@@std@@@std@@SAXAAV?$allocator@VSprite@sf@@@1@QAVSprite@sf@@$$QAV34@@Z)
+C:\Users\Khalid\Documents\Visual Studio 2017\Projects\GitHub\BowGame-HalloweenEdition\Debug\BowGame.exe : fatal error LNK1120: 3 unresolved externals
