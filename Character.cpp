@@ -12,7 +12,7 @@ void Character::hit()
   if (healthbar->rs.getSize().x == 0)
   {
     DEAD = true;
-    //std::cout << "True";
+    std::cout << "True";
     
   }
   
